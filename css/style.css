@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body {
+    overflow-x: hidden !important;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #222222;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+}
+
+
+.header_logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 30px;
+    color: greenyellow;
+}
+
+.header_navegacao {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.navegacao_itens {
+    display: flex;
+    gap: 30px;
+    padding-top: 15px;
+}
+
+.navegacao_itens > a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: greenyellow;
+}
+
+/* MAIN */
+
+main {
+    width: 100%;
+    padding-top: 70px;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;  
+}
+
+.footer_redes {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.footer_redes > a {
+    color: gold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer_copyright {
+    font-size: 15px;
+    padding-top: 20px;
+}
